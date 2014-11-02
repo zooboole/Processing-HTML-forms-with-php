@@ -5,7 +5,7 @@
   </head>
   <body>
     <h1>Enquiries: contact us</h1>
-    <form id="ct" action="processor.php" method="post">
+    <form id="ct" action="index.php" method="post">
       <label for="name">Name</label>
       <input type="TEXT" name="name" id='name' value="">
 
