@@ -1,0 +1,18 @@
+body {
+  background-color:#fefefe;
+  font-family:helvetica;
+  font-size:16px;
+}
+form{
+  border:1px solid #ccc;
+  padding:20px;
+}
+label{
+  display:block;
+  font-size:0.7em;
+  text-transform:uppercase;
+  font-weight:700;
+}
+input{
+  margin-bottom:0.5em;
+}
