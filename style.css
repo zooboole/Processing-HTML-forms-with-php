@@ -1,18 +1,77 @@
-body {
-  background-color:#fefefe;
+/*Styling the body of the page*/
+body{
+  background-color:#eee;
   font-family:helvetica;
   font-size:16px;
 }
-form{
+
+/*style the title*/
+h1{
+  border-bottom:1px solid #ddd;
+}
+
+/*Styles the container of the entire form*/
+.wrapper{
+  width:800px;
+  margin:20px auto;
+  background-color:#fff;
+  border-radius:5px;
   border:1px solid #ccc;
   padding:20px;
+  text-align:center;
 }
+
+/*Format a bit all labels*/
 label{
   display:block;
   font-size:0.7em;
   text-transform:uppercase;
-  font-weight:700;
+  font-weight:500;
+  width:300px;
+  text-align:left;
+  margin: auto;
+  padding:0;
 }
-input{
-  margin-bottom:0.5em;
+
+/*Styling the input fields and the textarea tag*/
+input, textarea{
+  margin-bottom:0.8em;
+  border:1px solid #ddd;
+  padding:0.3em;
+  line-height:1.5em;
+  color:darkgreen;
+  width:300px;
+}
+
+/*creates a style for the button*/
+.btn{
+  display:block; /*to make it go under the text field*/
+  padding:0.5em 1.3em;
+  border:1px solid #eee;
+  font-size:1.3em;
+  cursor:pointer;
+  background:linear-gradient(0, #D8D8D8, #F8F8F8);
+  color:#888;
+
+  margin: auto;
+}
+
+/*When we over on the button*/
+.btn:hover{
+  background:linear-gradient(0, #DDD, #F9F9F9);
+  color:#333;
+}
+
+/*Style errors box*/
+.errors{
+  margin:0;
+  padding:0;
+  color: #F50;
+  right:0;
+  top:10px;
+}
+
+.confirmation{
+  color:green;
+  font-size:1.3em;
 }
